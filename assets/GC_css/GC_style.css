@@ -128,69 +128,7 @@ footer {
     margin: 0 auto 30px;
 }
 
-/*------------------------------*/
 
-/*
-
-<header class="section__header">
-      <h2 class="section__title section__title--accent">Меню</h2>
-      <nav class="catalog-nav">
-        <ul class="catalog-nav__wrapper">
-          <li class="catalog-nav__item">
-            <button class="catalog-nav__btn is-active" type="button">все</button>
-          </li>
-          <li class="catalog-nav__item">
-            <button class="catalog-nav__btn" type="button">грибные</button>
-          </li>
-          <li class="catalog-nav__item">
-            <button class="catalog-nav__btn" type="button">мясные</button>
-          </li>
-          <li class="catalog-nav__item">
-            <button class="catalog-nav__btn" type="button">сырные</button>
-          </li>
-        </ul>
-      </nav >
-    </header>
-
-*/
-
-/* btn start */
-.btn {
-  background: #ff5441;
-  color: #fff;
-  display: inline-block;
-  padding: 18px 20px;
-  width: 240px;
-  max-width: 100%;
-  border-radius: 28px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 18px;
-  border: 0;
-  cursor: pointer;
-  text-align: center;
-  letter-spacing: .02em;
-  box-shadow: 0px 0px 38px 0px rgba(212, 66, 50, 0.8);
-  transition: color .2s, background .2s, opacity .2s;
-}
-
-.btn:hover {
-  background: #ec4b38;
-}
-
-.btn:active {
-  opacity: 0.8;
-  transform: scale(.95);
-}
-
-@media (max-width: 576px) {
-  .btn {
-    font-size: 16px;
-    padding: 16px 20px;
-    width: 220px;
-  }
-}
-/* btn end */
 
 /* container start */
 .container {
@@ -200,30 +138,6 @@ footer {
   margin: 0 auto;
 }
 /* container end */
-
-
-/* phone start */
-.phone__item {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  border: 3px solid #fff;
-  padding: 8px 16px;
-  border-radius: 21.5px;
-  transition: color .2s, background .2s, opacity .2s;
-}
-
-.phone__item:hover {
-  color: #1f1f1f;
-  background: #fff;
-}
-
-.phone__item:active {
-  opacity: 0.8;
-}
-/* phone end */
 
 
 
@@ -269,6 +183,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -35px;
+   
+
 }
 
 .catalog__item {
@@ -288,6 +204,7 @@ footer {
   width: 3px;
   height: 100%;
   transform: translateX(-50%);
+    
 }
 
 .catalog__item:nth-of-type(3n + 1)::before {
@@ -396,12 +313,6 @@ footer {
 
 
 
-.product__price {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  font-weight: 900;
-}
-
 .product__bottom {
   display: flex;
   align-items: center;
@@ -419,87 +330,3 @@ footer {
   background: #ff7c21;
 }
 
-
-@media (max-width: 370px) {
-  .product__price {
-    font-size: 18px;
-  }
-}
-/* product end */
-
-/*
-
-<div class="uk-first-column">
-					
-					<div class="upcoming-game upcoming-game--past">
-                        							<header class="uk-flex uk-flex-center uk-flex-between@s">
-								<span>
-									Чемпионат Беларуси									<br>
-									Тур 1								</span>
-								<span class="uk-visible@s">Прошедший матч</span>
-							</header>
-							<div class="upcoming-game__result uk-text-primary">
-								<div class="uk-width-1-3@m uk-text-center">
-									<img src="pictures/modules/SeasonApp/team/team_logo/01energetikbgu_2019_logo.png" alt="Энергетик-БГУ" height="100">
-									<p>Энергетик-БГУ</p>
-								</div>
-								<div class="uk-width-1-3@m uk-text-center">
-																			<p class="upcoming-game__title">3:1</p>
-																		</div>
-								<div class="uk-width-1-3@m uk-text-center">
-									<img src="pictures/modules/SeasonApp/team/team_logo/logo_fcbate_new_2020.png" alt="БАТЭ" height="100">
-									<p>БАТЭ</p>
-								</div>
-							</div>
-							<footer class="upcoming-game__footer">
-								<div class="uk-visible@s">
-									<span>19 марта 2020,  17:00</span>
-									<br>
-									<span> Минск. Стадион РЦОР-БГУ</span>
-								</div>
-
-								<a class="link" href="https://fcbate.by/ru/season/calendar/id32015472?online=0">Подробнее</a>
-							</footer>
-
-                        
-					</div>
-
-									</div>
-				<div>
-                    
-					<div class="upcoming-game upcoming-game--past">
-                        
-						<header class="uk-flex uk-flex-center uk-flex-between@s">
-							<span>
-				                Чемпионат Беларуси								<br>
-				                Тур 2							</span>
-							<span class="uk-visible@s">Следующий матч</span>
-
-						</header>
-						<div class="upcoming-game__result uk-text-primary">
-							<div class="uk-width-1-3@m uk-text-center">
-								<img src="pictures/modules/SeasonApp/team/team_logo/0slavia_big_2019_03_22.png" alt="Славия" height="100">
-								<p>Славия</p>
-							</div>
-							<div class="uk-width-1-3@m uk-text-center">
-								<p class="upcoming-game__title">VS</p>
-							</div>
-							<div class="uk-width-1-3@m uk-text-center">
-								<img src="pictures/modules/SeasonApp/team/team_logo/logo_fcbate_new_2020.png" alt="БАТЭ" height="100">
-								<p>БАТЭ</p>
-							</div>
-						</div>
-	                        <footer class="upcoming-game__footer">
-		                        <div class="">
-			                        <span>28 марта 2020,  15:00</span>
-			                        <br>
-			                        <span> Мозырь. Стадион "Юность"</span>
-		                        </div>
-		                        <a class="link" href="https://fcbate.by/ru/season/calendar/id32015477?online=0" target="_blank">Подробнее</a>
-	                        </footer>
-                        
-					</div>
-                    				</div>
-
-
-*/
